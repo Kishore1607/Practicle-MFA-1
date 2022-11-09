@@ -1,0 +1,72 @@
+.header{
+    display:flex;
+    flex-direction:row;
+    flex:wrap;
+    align-content:space-between;
+    justify-content: space-between;
+}
+.header__logo{
+     width:200px;
+     height:100px;
+}
+.navigation__list li{
+    display: inline;
+    flex-direction: row;
+    margin-right:20px;
+}
+.header button{
+    border-radius: 3px;
+    border-width: 1px 1px 1px 1px;
+    margin: 35px 10px 35px 10px;
+    background-color: #C05326;
+    color: white;
+}
+.alert{
+    background-color: #F7EAE4;
+    padding: 25px;
+    border-style: solid;
+    border-width: 0px 0px 0px 4px;
+    border-color: #C05326;
+}
+.hero{
+    position:relative;
+    top:25px;
+    background-color:rgb(131, 131, 230);
+    padding-top:100px;
+    padding-bottom: 100px;
+    padding-left:25px;
+    background-image:url(../img/header-bike.jpg);
+    color:white;
+}
+.text-highlight{
+    color:#C05326;
+}
+.heading-underline{
+    position:relative;
+    top:25px;
+    border-bottom-style: solid;
+    border-color: #F7EAE4;
+    border-width: 0px 0px 2px 0px;
+}
+.content{
+    display:flex;
+    margin-right: 200px;
+    ;
+}
+
+.footer{
+    text-align: center;
+    position:relative;
+    top:20px;
+    border-top-style: solid;
+    border-color: #F7EAE4;
+    border-width: 1px 0px 0px 0px;
+    margin-top: 25px;
+}
+.article{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 1px 1px 1px;
+    align-content: space-between;
+    display: flex;
+}
