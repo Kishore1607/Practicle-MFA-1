@@ -48,3 +48,12 @@ Add a hover effect using CSS, so that:
 ## Submit your work
 
 Once you've finished, **Create a git repository** so your work can be reviewed by a mentor.
+
+
+grey-dark: #292b2c;
+ grey-light: #e4e4e4;
+ orange-dark: #c05326;
+ orange-light: #f7eae4;
+ white: #fff;
+
+ font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif

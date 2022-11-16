@@ -1,0 +1,154 @@
+.body{
+    width:1260px;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.header__logo{
+    margin: 5px;
+    width: 180px;
+    height: 80px;
+}
+.navigation__list{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 10px;
+
+}
+.navigation__item{
+    padding: 20px 20px 0px 20px;
+    
+}
+.navigation__link{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    margin-top: 25px;
+    background-color: #c05326;
+    color: white;
+    border: 0px;
+}
+.btn2{
+    background-color: #c05326;
+    color: white;
+    height: 30px;
+    border: 0px;
+}
+.detail{
+    display:flex;
+    margin: -10px 0px 0px 0px ;
+}
+.alert{
+    padding: 20px 0px 20px 20px;
+    background-color: #f7eae4;
+    border-style: solid;
+    border-width: 0px 0px 0px 4px;
+    border-color: #c05326;
+}
+.text-highlights{
+    color: #c05326;
+}
+.article{
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 15px;
+}
+.hero{
+    height: 130px;
+    margin-top: 20px;
+    padding: 95px 50px;
+    background-image: url(../img/header-bike.jpg);
+    color: white;
+}
+.content{
+    max-width: 900px;
+}
+.sidebar{
+    width: 350px;
+    padding-left: 25px;
+}
+.article0{
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.article1{
+    width: 500px;
+    height: 170px;
+    margin-top: -15px;
+    padding: 5px 10px 20px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.article2{
+    margin-top: -15px;
+    margin-left: 50px;
+    padding: 5px 10px 20px 10px;
+    width: 500px;
+    height:170px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.article__content{
+    display: flex;
+}
+.article__read-more{
+    position: relative;
+    bottom: 10px;
+}
+.footer{
+    position: relative;
+    top: 30px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color:#f7eae4;
+}
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.footer__content1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: -15px;
+}
+.heading-underline{
+    position: relative;
+    top: -10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color:#f7eae4;
+}
+.facebook-link{
+    margin-left: 185px;
+    text-decoration: none;
+    color: #c05326;
+    background-color: transparent;
+}
+
+.article__title-link{
+    text-decoration: none;
+    color: #c05326;
+    background-color: transparent;
+}
